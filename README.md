@@ -41,8 +41,26 @@ CREATE TABLE Emprunt (
 );
 
 ```
-## Installation
+## Installation on Linux
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/g2f1/BIBv1.git
+The application has been successfully tested in a Linux environment and functions as expected. To install it, follow these steps:
+
+### 1. Download and Extract
+- Download the `.tar` archive and extract its contents.
+
+### 2. Install Dependencies
+- **MySQL Connector/J (v9.1.0)**:  
+  Download it from [here](https://downloads.mysql.com/archives/c-j/) and place the resulting `.jar` file in its designated directory.
+- **JavaFX SDK**:  
+  Download it from [here](https://gluonhq.com/products/javafx/) (select the SDK version) and place the extracted files accordingly.
+
+### 3. Run the Application
+- Grant execution permissions to the `run.sh` script:
+  ```bash
+  chmod +x run.sh
+  ```
+- Then run the application
+  ```bash
+  ./run.sh
+  ```
+

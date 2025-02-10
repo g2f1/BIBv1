@@ -3,6 +3,7 @@
 ## About
 
 BIBv1 is a Java-based application designed to manage book loans in a library. It allows library staff to track books, manage user informations, and handle loan transactions. The system supports features such as borrowing and returning books, tracking due dates, and handling user and book records.
+This project follows the Model-View-Controller (MVC) pattern, separating the logic for data handling, user interface, and control flow for maintainability and scalability.Additionally, the Data Access Object (DAO) pattern is used to abstract database interactions, providing a clear separation between data access and business logic.
 
 ## Features
 
